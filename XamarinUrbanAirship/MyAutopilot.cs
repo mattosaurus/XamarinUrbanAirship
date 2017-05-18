@@ -32,6 +32,7 @@ namespace XamarinUrbanAirship
                  .SetDevelopmentAppSecret("Your Development App Secret")
                  .SetProductionAppKey("Your Production App Key")
                  .SetProductionAppSecret("Your Production App Secret")
+                 .SetGcmSender("Your GCM Sender ID")
                 .Build();
 
             return options;
